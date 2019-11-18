@@ -1,0 +1,11 @@
+.article {
+  margin-bottom: 24px;
+}
+
+.article__footer {
+  font-size: 14px;
+}
+
+.fa-heart {
+  color: #ff7670;
+}
