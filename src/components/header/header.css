@@ -1,0 +1,25 @@
+.header {
+  padding: 24px;
+  background-color: #332f30;
+  margin-bottom: 48px;
+}
+
+.header__logo {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 0;
+}
+
+.header__image {
+  max-height: 50px;
+  width: auto;
+  margin-right: 16px;
+}
+
+.header__title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: .5px;
+}
