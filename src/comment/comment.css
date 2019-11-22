@@ -1,0 +1,51 @@
+.comment {
+  background-color: #f1f2f3;
+  padding: 24px;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 24px;
+}
+
+.comment:last-of-type {
+  margin-bottom: 0;
+}
+
+.comment__avatar {
+  margin: 0 24px 0 0;
+}
+
+.comment__image {
+  max-height: 50px;
+  width: auto;
+}
+
+.comment__body {
+  -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+        flex-grow: 1
+}
+
+.comment__author {
+  margin-bottom: 12px;
+}
+
+.comment__rating {
+  margin-top: 16px;
+  color: #888;
+  font-size: 14px;
+}
+
+.comment__options {
+  display: none;
+}
+
+.comment:hover .comment__options {
+  display: block;
+}
+
+.comment__link {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 14px;
+  color: #888;
+}
